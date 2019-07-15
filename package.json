@@ -1,0 +1,28 @@
+{
+    "name": "@frenz/seequel",
+    "private": false,
+    "description": "sql typescript wrapper",
+    "version": "1.0.0",
+    "author": "Lorenzo Giuliani <lorenzo@frenzart.com>",
+    "license": "MIT",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "tape ./test/*.test.js"
+    },
+    "dependencies": {
+        "fp-ts": "^2.0.1",
+        "pg": "^7.11.0",
+        "pg-native": "^3.0.0",
+        "sql-ts": "^3.0.1"
+    },
+    "devDependencies": {
+        "@frenz/ducktape": "^1.0.0",
+        "@types/node": "^12.6.1",
+        "@types/pg": "^7.4.14",
+        "tape": "^4.11.0",
+        "typescript": "^3.5.3"
+    },
+    "peerDependencies": {
+        "pg": "^7.11.0"
+    }
+}
